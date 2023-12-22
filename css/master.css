@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: font-1;
+  src: url("../font/JosefinSans-VariableFont_wght.ttf") format("opentype");
+}
+@font-face {
+  font-family: font-2;
+  src: url("../font/BebasNeue-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: font-3;
+  src: url("../font/Dangrek-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: font-4;
+  src: url("../font/LuckiestGuy-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: font-5;
+  src: url("../font/Orbitron-VariableFont_wght.ttf") format("opentype");
+}
+  .main{
+    width: calc(100% + 20px);
+  }
+  #txt{
+    z-index: 100;
+  }
+  .bg-size{
+    background-size: 100% 100%;
+  }
+  .bg1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.09) 20% ,rgb(0, 0, 0) );
+  }
+  @keyframes key1 {
+    0%{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    33%{
+      transform: translateY(1rem);
+      opacity: 1;
+    }
+    66%{transform: translateY(7rem);
+    opacity: 0;}
+    100%{
+      transform: translateY(0);
+      opacity: 0;
+    }
+  }
+  .animation{
+    animation: 4s key1 forwards infinite;
+  }
+  .mix{
+    mix-blend-mode: difference;
+  }
+  
