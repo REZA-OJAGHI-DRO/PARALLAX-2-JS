@@ -3,7 +3,7 @@
 
 
 
-- [Demo Project]()
+- [Demo Project](https://reza-ojaghi-dro.github.io/PARALLAX-2-JS/)
  
 - Developed by reza ojaghi
 
